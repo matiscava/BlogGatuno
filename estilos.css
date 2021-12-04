@@ -1,6 +1,7 @@
 
 header section{
     background-color: #CAF0F8;
+    background-image: linear-gradient( to bottom, #CAF0F8, #86e8fc);
     margin-top: -10px;
     margin-left: -10px;
     margin-right: -10px;
@@ -129,6 +130,7 @@ h2{
     background-color: white;
     border-radius: 5px;
     margin: 20px;
+    padding: 5px;
 }
 .asideQuienesSomos{
     display: flex;
