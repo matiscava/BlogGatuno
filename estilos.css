@@ -1,0 +1,287 @@
+
+header section{
+    background-color: #CAF0F8;
+    margin-top: -10px;
+    margin-left: -10px;
+    margin-right: -10px;
+    border-bottom: solid 2px black;
+    display: grid;
+}
+@media screen and (max-width: 768px){
+    header section {
+        grid-template-columns: 100%;
+    }
+}
+@media screen and (min-width: 768px){
+    header section {
+        grid-template-columns: 50% 50%;
+    }
+}
+header section img{
+    margin-left: 40px;
+}
+header section nav ul{
+    list-style-type: none;
+    margin-right: -40px;
+}
+header section nav ul li{
+    display: inline-block;
+    margin-right: 10px;
+    margin-top: 70px;
+}
+a{
+    color: black;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    text-transform: capitalize;
+}
+h1{
+    color: #03045E;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 60px;
+    text-transform: capitalize;
+    text-align: center;  
+    margin-top: 60px;  
+}
+.iconos{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16;
+    text-align: center;
+    border-bottom: solid 2px gray;
+}
+.iconos ul li{
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-bottom: 10px;
+}
+.cabecera{
+    margin-bottom: 20px;
+    margin-right: -10px;
+    margin-left: -10px;
+    border-bottom: solid 2px gray;
+}
+.subtitulocabecera{
+    color: rgb(51, 51, 51);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+h2{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 40px;
+    text-align: center;
+    color: #03045E;
+    margin-top: 50px;
+}
+.tituloQS{
+    text-align: left;
+}
+.quienesSomos{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 40px;
+    display: grid;
+}
+@media screen and (max-width: 833px){
+    .quienesSomos {
+        grid-template-columns: 100%;
+    }
+}
+@media screen and (min-width: 833px){
+    .quienesSomos {
+        grid-template-columns: 50% 50%;
+    }
+}
+.gatoQuienesSomos{
+    width: 70%;
+    border-radius: 5px;
+}
+.articulos{
+    background-color:#CAF0F8;
+    margin-right: -10px;
+    margin-left: -10px;
+    margin-top: -80px;
+    margin-bottom: auto;
+    display: grid;
+}
+@media screen and (max-width: 1186px){
+    .articulos {
+        grid-template-columns: 50% 50%;
+    }
+}
+@media screen and (min-width: 1186px){
+    .articulos {
+        grid-template-columns: 25% 25% 25% 25%;
+    }
+}
+@media screen and (max-width: 668px){
+    .articulos {
+        grid-template-columns: 100%;
+    }
+}
+.articuloUno{
+    background-color: white;
+    border-radius: 5px;
+    margin: 20px;
+}
+.asideQuienesSomos{
+    display: flex;
+    justify-content: center;
+}
+.imagenBlog{
+    width: 100%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    padding: 10;
+    margin: 10;
+}
+.titulos{
+   background-color: #CAF0F8;
+   margin-right: -10px;
+   margin-left: -10px;
+   margin-top: -40px;
+}
+.sectionboton{
+    background-color: #CAF0F8;
+   margin-right: -10px;
+   margin-left: -10px;
+   display: flex;
+   justify-content: center;
+}
+.boton{
+    padding: 10px;
+    margin: 10px;
+    margin-top: 30px; 
+    margin-bottom: 30px;
+    background-color: white;
+}
+.gatoForm{
+    width: 70%;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.formulario{
+    margin-top: 30px;
+    padding-bottom: 70px;
+    display: grid;
+}
+@media screen and (min-width: 882px){
+    .formulario {
+        grid-template-columns: 50% 50%;
+    }
+}
+@media screen and (max-width: 882px){
+    .formulario {
+        grid-template-columns: 100%;
+    }
+}
+
+footer{
+    background-color: #03045E;
+    margin-top: 10px;
+    margin-left: -10px;
+    margin-bottom: -10px;
+    margin-right: -10px;
+}
+.textoFooter{
+    text-align: center;
+    color: white;
+}
+footer section ul{
+    list-style-type: none;
+    text-align: center;
+}
+footer section ul li{
+    
+    display: inline-block;
+    margin: 10px;
+    color: white;
+}
+footer section img{
+    margin: auto;
+    display: block;
+}
+.sectionFooter{
+    padding-bottom: 100px;
+}
+.sectionRedes{
+    background-image: url(./imagenes/fondo_redes.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    border: solid 2px gray;
+    margin-left: -10px;
+    margin-right: -10px;
+    margin-bottom: -90px;
+    padding: 100px;
+}
+.redesSociales{
+    text-align: center;
+}
+.sectionContacto{
+    margin-top: 30px;
+    padding-bottom: 70px;
+    display: grid;
+}
+    @media screen and (min-width: 882px){
+        .sectionContacto {
+            grid-template-columns: 50% 50%;
+        }
+    }
+    @media screen and (max-width: 882px){
+        .sectionContacto {
+            grid-template-columns: 100%;
+        }
+    }  
+.imgGato{
+    width: 70%;
+    border-radius: 5px;
+}
+h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color: #03045E;
+    margin-left: 30px;
+}
+.sectionContacto ul li{
+    margin-top: 10px;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-bottom: 10px;
+}
+.listContacto{
+    list-style-type: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+.artBlog{
+    border: solid 4px rgb(194, 194, 194);
+    border-radius: 15px;
+    padding: 5px;
+    margin: 10px;
+}
+.gatoArt{
+    width: 100%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.botonesArt{
+    list-style-type: none;
+    text-align: center;
+}
+.botonesArt li{
+    background-color: grey;
+    padding: 10px;
+    border-radius: 40px;
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
