@@ -106,8 +106,6 @@ h2{
 }
 .articulos{
     background-color:#CAF0F8;
-    margin-right: -10px;
-    margin-left: -10px;
     margin-top: -80px;
     margin-bottom: auto;
     display: grid;
@@ -182,6 +180,7 @@ h2{
 .formulario{
     margin-top: 30px;
     padding-bottom: 70px;
+    padding-top: 70px;
     display: grid;
 }
 @media screen and (min-width: 882px){
@@ -197,7 +196,8 @@ h2{
 
 footer{
     background-color: #03045E;
-    margin-top: 10px;
+    padding-top: 20px;
+    padding-bottom: 80px;
     margin-left: -10px;
     margin-bottom: -10px;
     margin-right: -10px;
@@ -233,7 +233,8 @@ footer section img{
     margin-left: -10px;
     margin-right: -10px;
     margin-bottom: -90px;
-    padding: 100px;
+    padding-top: 300px;
+    padding-bottom: 300px;
 }
 .redesSociales{
     text-align: center;
@@ -299,4 +300,22 @@ h3{
 }
 .paginationBlog{
     color: #03045E;
+}
+.logoFacebook{
+    width: 50px;
+    grid-column: 2;
+}
+.logoInstagram{
+    width: 50px;
+    grid-column: 3;
+}
+.logoYoutube{
+    width: 60px;
+    grid-column: 4;
+}
+footer div{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    display: grid;
+    grid-template-columns: 5fr 1fr 1fr 1fr 5fr;
 }
