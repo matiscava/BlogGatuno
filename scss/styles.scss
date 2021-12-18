@@ -1,7 +1,7 @@
 
 header section{
     background-color: #CAF0F8;
-    background-image: linear-gradient( to bottom, #CAF0F8, #86e8fc);
+    background-image: linear-gradient( to bottom, from #CAF0F8, to #86e8fc);
     padding-top: 10px;
     padding-left: 30px;
     padding-right: 10px;
@@ -361,6 +361,10 @@ footer div{
     text-transform: capitalize;
     font-weight: 500;
     padding-bottom: 40px;
+}
+.tituloQS2{
+    @extend .tituloQS;
+    font-weight: 700;
 }
 .tituloForm{
     text-align: left;
