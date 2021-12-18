@@ -1,7 +1,7 @@
 header section {
   background-color: #CAF0F8;
-  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(#CAF0F8, from), color-stop(#86e8fc, to));
-  background-image: linear-gradient(to bottom, from #CAF0F8, to #86e8fc);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#CAF0F8), to(#86e8fc));
+  background-image: linear-gradient(to bottom, #CAF0F8, #86e8fc);
   padding-top: 10px;
   padding-left: 30px;
   padding-right: 10px;
@@ -451,7 +451,7 @@ footer div {
   font-size: 20px;
 }
 
-.tituloQS, .tituloQS2 {
+.tituloQS {
   text-align: left;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 50px;
@@ -459,10 +459,6 @@ footer div {
   text-transform: capitalize;
   font-weight: 500;
   padding-bottom: 40px;
-}
-
-.tituloQS2 {
-  font-weight: 700;
 }
 
 .tituloForm {
@@ -478,9 +474,5 @@ footer div {
 .form {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 20px;
-}
-
-h1 {
-  color: #00011f;
 }
 /*# sourceMappingURL=styles.css.map */
