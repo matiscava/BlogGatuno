@@ -1,0 +1,87 @@
+.articulos{
+    background-color:#CAF0F8;
+    margin-top: -80px;
+    margin-bottom: auto;
+    display: grid;
+    padding-left: 40px;
+}
+.botonCard{
+    background-color: #03045E;
+    color: white;
+}
+.botonCard:hover{
+    background-color: #00011f;
+    color: white;
+}
+@media screen and (max-width: 1186px){
+    .articulos {
+        grid-template-columns: 50% 50%;
+    }
+}
+@media screen and (min-width: 1186px){
+    .articulos {
+        grid-template-columns: 25% 25% 25% 25%;
+    }
+}
+@media screen and (max-width: 668px){
+    .articulos {
+        grid-template-columns: 100%;
+    }
+}
+.articuloUno{
+    background-color: white;
+    border-radius: 5px;
+    margin: 20px;
+    padding: 5px;
+}
+.asideQuienesSomos{
+    display: flex;
+    justify-content: center;
+}
+.imagenBlog{
+    width: 100%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    padding: 10;
+    margin: 10;
+}
+.artBlog{
+    border: solid 4px rgb(194, 194, 194);
+    border-radius: 15px;
+    padding: 5px;
+    margin: 10px;
+}
+.gatoArt{
+    width: 100%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.botonesArt{
+    list-style-type: none;
+    text-align: center;
+}
+.botonesArt li{
+    background-color: grey;
+    padding: 10px;
+    border-radius: 40px;
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+.paginationBlog{
+    color: #03045E;
+}
+.sectionboton{
+    background-color: #CAF0F8;
+    margin-right: -10px;
+    margin-left: -10px;
+    display: flex;
+    justify-content: center;
+ }
+ .boton{
+    padding: 10px;
+    margin: 10px;
+    margin-top: 30px; 
+    margin-bottom: 30px;
+    background-color: white;
+}

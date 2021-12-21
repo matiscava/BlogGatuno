@@ -1,0 +1,64 @@
+footer{
+    background-color: #03045E;
+    border-top: solid 2px #00011f;
+    padding-top: 20px;
+    padding-bottom: 80px;
+    margin-left: -10px;
+    margin-bottom: -10px;
+    margin-right: -10px;
+}
+.textoFooter{
+    text-align: center;
+    color: white;
+}
+footer section ul{
+    list-style-type: none;
+    text-align: center;
+}
+footer section ul li{
+    
+    display: inline-block;
+    margin: 10px;
+    color: white;
+}
+footer section img{
+    margin: auto;
+    display: block;
+}
+.sectionFooter{
+    padding-bottom: 100px;
+}
+.sectionRedes{
+    background-image: url(./imagenes/fondo_redes.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    border: solid 2px gray;
+    margin-left: -10px;
+    margin-right: -10px;
+    margin-bottom: -90px;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    display: grid;
+    grid-template-columns: 5fr 1fr 1fr 1fr 5fr;
+    grid-template-rows: 10fr 10fr 10fr 10fr;
+}
+.logoFacebook{
+    width: 50px;
+    grid-column: 2;
+}
+.logoInstagram{
+    width: 50px;
+    grid-column: 3;
+}
+.logoYoutube{
+    width: 60px;
+    grid-column: 4;
+}
+footer div{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    display: grid;
+    grid-template-columns: 5fr 1fr 1fr 1fr 5fr;
+}
