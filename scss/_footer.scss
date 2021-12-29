@@ -28,22 +28,6 @@ footer section img{
 .sectionFooter{
     padding-bottom: 100px;
 }
-.sectionRedes{
-    background-image: url(./imagenes/fondo_redes.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    border: solid 2px gray;
-    margin-left: -10px;
-    margin-right: -10px;
-    margin-bottom: -90px;
-    padding-top: 150px;
-    padding-bottom: 150px;
-    display: grid;
-    grid-template-columns: 5fr 1fr 1fr 1fr 5fr;
-    grid-template-rows: 10fr 10fr 10fr 10fr;
-}
 .logoFacebook{
     width: 50px;
     grid-column: 2;

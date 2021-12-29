@@ -17,14 +17,14 @@
 
         <section>
             <a href="index.html">
-        <img src="./imagenes/logo_elgatonegro.webp" alt="Logo El gato negro">
+        <img src="./imagenes/logo_elgatonegro_blanco.webp" alt="Logo El gato negro">
         </a>
         <nav>
         <ul>
-            <li> <a href="./index.html">Inicio</a></li>
-            <li> <a href="./blog.html">Blog</a></li>
-            <li> <a href="./nosotros.html">Sobre Nosotros</a> </li>
-            <li> <a href="./contacto.html">Contacto</a></li>
+            <li> <a class="menu" href="./index.html">Inicio</a></li>
+            <li> <a class="menu" href="./blog.html">Blog</a></li>
+            <li> <a class="menu" href="./nosotros.html">Sobre Nosotros</a> </li>
+            <li> <a class="menu" href="./contacto.html">Contacto</a></li>
         </ul>
         </nav>
         </section>
@@ -65,37 +65,31 @@
         <section class="formulario colorFondo">
             <img src="./imagenes/gato_form.webp" alt="Gato mirando la cámara" class="gatoForm">
             <aside> 
-                <h2 id="columnaDos" class="columnaDos tituloForm">¿Querés recibir notificaciones de nuestro blog?</h2>
+                <h2 class="tituloForm">¿Querés recibir notificaciones de nuestro blog?</h2>
                 <p class="parrafoQS">Completa el siguiente formulario para recibir notificaciones cada vez que subimos un 
                     nuevo artículo. </p>
     
                     <form action="/" method="post">
-                     <fieldset class="form">
-                         <label for="nombre">Nombre completo:</label>
-                         <input id=nombre type="text" placeholder="Ingrese su nombre completo">
-                     </br>
-                    </br>
-                         <label for="correo">Correo electrónico:</label>
-                         <input id=correo type="email" required placeholder="Ingrese su correo electrónico">
-                </br>
-            </br>
-                         <input type="submit" value="Enviar">
+                     <fieldset id="form" class="form">
+                         <label for="nombre" class="labelNombre" >Nombre completo</label>
+                         <input id="nombre" class="nombre" type="text" placeholder="Ingrese su nombre completo">
+
+                         <label for="correo" class="labelCorreo" >Correo electrónico</label>
+                         <input id="correo" class="correo" type="email" required placeholder="Ingrese su correo electrónico">
+               
+                         <input id="botonForm" class="botonForm" type="submit" value="Enviar">
                      </fieldset>
                     </form>
             </aside>
-            <br>
-            <br>
-            <br>
-            <br>
         </section>
         <footer>
             <section class="sectionFooter">
         
             <img src="./imagenes/logo_elgatonegro_blanco.webp" alt="Logo del gato negro">
             <div>
-                <img class="logoFacebook" src="./imagenes/rrss_facebook.webp" alt="logo Facebook">
-                <img class="logoInstagram" src="./imagenes/rrss_instagram.webp" alt="logo Instagram">
-                <img class="logoYoutube" src="./imagenes/rrss_youtube.webp" alt="logo Youtube">
+            <a href="https://www.facebook.com"><img class="logoFacebook" src="./imagenes/rrss_facebook.webp"  alt="logo Facebook"></a>
+            <a href="https://www.Instagram.com"><img class="logoInstagram" src="./imagenes/rrss_instagram.webp" alt="logo Instagram"></a>
+            <a href="https://www.youtube.com"><img class="logoYoutube" src="./imagenes/rrss_youtube.webp" alt="logo Youtube"></a>
             </div>
             <ul class="menuFooter">
                 <li>Legal</li>

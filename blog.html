@@ -16,14 +16,14 @@
     <header>
         <section>
             <a href="index.html">
-        <img src="./imagenes/logo_elgatonegro.webp" alt="Logo El gato negro">
+        <img src="./imagenes/logo_elgatonegro_blanco.webp" alt="Logo El gato negro">
         </a>
         <nav>
         <ul>
-            <li> <a href="./index.html">Inicio</a></li>
-            <li> <a href="./blog.html">Blog</a></li>
-            <li> <a href="./nosotros.html">Sobre Nosotros</a></li>
-            <li> <a href="./contacto.html">Contacto</a>  </li>
+            <li> <a class="menu" href="./index.html">Inicio</a></li>
+            <li> <a class="menu" href="./blog.html">Blog</a></li>
+            <li> <a class="menu" href="./nosotros.html">Sobre Nosotros</a></li>
+            <li> <a class="menu" href="./contacto.html">Contacto</a>  </li>
         </ul>
         </nav>
         </section>
@@ -50,9 +50,9 @@
 
             <article id="artBlog" class="artBlog animate__animated  animate__slideInUp">
                 <img src="./imagenes/fondo_cabecera_2.webp" alt="gato curioso" id="gatoArt" class="gatoArt">
-                <h3>Curiosidades sobre los gatos</h3>
-                <p>10 min de lectura - Compartir</p>
-                <p>No cabe duda que los gatos son una excelente compañía. Son perfectos 
+                <h3 id="titulosBlog" class="titulosBlog">Curiosidades sobre los gatos</h3>
+                <p id="metadatos" class="metadatos">10 min de lectura - Compartir</p>
+                <p id="parrafoArt" class="parrafoArt">No cabe duda que los gatos son una excelente compañía. Son perfectos 
                  cómplices para las personas que buscan un compañero con quien descansar,
                  que le guste pasar momentos tranquilos y sobretodo aquel que busca un 
                  amigo fiel.</p>
@@ -60,9 +60,9 @@
 
             <article class="artBlog animate__animated  animate__slideInUp">
                 <img src="./imagenes/fondo_cabecera_3.webp" alt="gato curioso 2" class="gatoArt">
-                <h3>Curiosidades sobre los gatos</h3>
-                <p>10 min de lectura - Compartir</p>
-                <p>No cabe duda que los gatos son una excelente compañía. Son perfectos 
+                <h3 class="titulosBlog">Curiosidades sobre los gatos</h3>
+                <p class="metadatos">10 min de lectura - Compartir</p>
+                <p class="parrafoArt">No cabe duda que los gatos son una excelente compañía. Son perfectos 
                  cómplices para las personas que buscan un compañero con quien descansar,
                  que le guste pasar momentos tranquilos y sobretodo aquel que busca un 
                  amigo fiel.</p>
@@ -89,19 +89,17 @@
                     nuevo artículo. </p>
     
                     <form action="/" method="post">
-                     <fieldset class="form">
-                         <label for="nombre">Nombre completo:</label>
-                         <input id=nombre type="text" placeholder="Ingrese su nombre completo">
-                     </br>
-                    </br>
-                         <label for="correo">Correo electrónico:</label>
-                         <input id=correo type="email" required placeholder="Ingrese su correo electrónico">
-                </br>
-            </br>
-                         <input type="submit" value="Enviar">
+                     <fieldset id="form" class="form">
+                         <label for="nombre" class="labelNombre" >Nombre completo</label>
+                         <input id="nombre" class="nombre" type="text" placeholder="Ingrese su nombre completo">
+
+                         <label for="correo" class="labelCorreo" >Correo electrónico</label>
+                         <input id="correo" class="correo" type="email" required placeholder="Ingrese su correo electrónico">
+               
+                         <input id="botonForm" class="botonForm" type="submit" value="Enviar">
                      </fieldset>
                     </form>
-                </aside>
+            </aside>
 
         </section>
         <footer>
@@ -109,9 +107,9 @@
         
             <img src="./imagenes/logo_elgatonegro_blanco.webp" alt="Logo del gato negro">
             <div>
-                <img class="logoFacebook" src="./imagenes/rrss_facebook.webp" alt="logo Facebook">
-                <img class="logoInstagram" src="./imagenes/rrss_instagram.webp" alt="logo Instagram">
-                <img class="logoYoutube" src="./imagenes/rrss_youtube.webp" alt="logo Youtube">
+            <a href="https://www.facebook.com"><img class="logoFacebook" src="./imagenes/rrss_facebook.webp"  alt="logo Facebook"></a>
+            <a href="https://www.Instagram.com"><img class="logoInstagram" src="./imagenes/rrss_instagram.webp" alt="logo Instagram"></a>
+            <a href="https://www.youtube.com"><img class="logoYoutube" src="./imagenes/rrss_youtube.webp" alt="logo Youtube"></a>
             </div>
             <ul class="menuFooter">
                 <li>Legal</li>
