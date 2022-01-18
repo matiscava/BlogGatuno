@@ -16,18 +16,41 @@
     <header>
 
         <section>
-            <a href="index.html">
-        <img src="./imagenes/logo_elgatonegro_blanco.webp" alt="Logo El gato negro">
-        </a>
-        <nav>
-        <ul>
-            <li> <a class="menu" href="./index.html">Inicio</a></li>
-            <li> <a class="menu" href="./blog.html">Blog</a></li>
-            <li> <a class="menu" href="./nosotros.html">Sobre Nosotros</a> </li>
-            <li> <a class="menu" href="./contacto.html">Contacto</a></li>
-        </ul>
-        </nav>
-        </section>
+            <nav class="navbar navbar-expand-lg navbar-dark">
+               <div class="container-fluid menuNav">
+                    <a class="navbar-brand" href="#"><img src="./imagenes/logo_elgatonegro_blanco.webp" alt="Logo El gato negro"></a>
+    
+                    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                        data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+    
+                    <div class="offcanvas offcanvas-end" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                        
+                        <div class="offcanvas-header">
+                            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body">
+                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                            <li class="nav-item">
+                                <a class="menu" href="./index.html">Inicio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="menu" href="./blog.html">Blog</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="menu" href="./nosotros.html">Nosotros</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="menu" href="./contacto.html">Contacto</a>
+                            </li>
+                        </ul>
+                      </div>
+                    </div>
+                </div>
+            </nav>
+            </section>
+        
     
         </header>
 
@@ -41,9 +64,9 @@
     
         <section class="iconos">
             <ul>
-                <li> Tips gatunos</li>
-                <li> Comportamiento</li>
-                <li> Salud</li>
+                <li><img id="iconoGatuno" class="iconoGatuno" src="./imagenes/tips_gatunos.png"> Tips gatunos</li>
+                <li><img class="iconoGatuno" src="./imagenes/comportamiento.png"> Comportamiento</li>
+                <li><img class="iconoGatuno" src="./imagenes/salud.png"> Salud</li>
             </ul>
         </hr>
         </section>

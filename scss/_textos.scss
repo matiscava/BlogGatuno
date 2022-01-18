@@ -1,5 +1,5 @@
 h1{
-    color: #00011f;
+    color: #CAF0F8;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 61px;
     text-transform: uppercase;
@@ -34,6 +34,7 @@ h3{
     color: #00011f;
     text-transform: capitalize;
     font-weight: 500;
+    padding-top: 70px;
     padding-bottom: 40px;
 }
 .tituloQS2{
@@ -51,8 +52,6 @@ h3{
 }
 .titulos{
     background-color: #CAF0F8;
-    margin-right: -10px;
-    margin-left: -10px;
     margin-top: 40px;
  }
  .subtituloArticulos{
@@ -91,4 +90,8 @@ h3{
     font-size: 25px;
     color: #00011f;
     padding-left: 10px;
+}
+a{
+    color: white;
+    text-decoration: none;
 }
