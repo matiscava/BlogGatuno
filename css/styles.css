@@ -85,7 +85,7 @@ header section nav ul li {
   .cabecera {
     background-image: url(../imagenes/fondo_cabecera_celular.jpg);
     background-position: center;
-    background-attachment: fixed; } }
+    background-attachment: scroll; } }
 
 .subtitulocabecera {
   color: white;
@@ -99,25 +99,25 @@ header section nav ul li {
   padding-right: 80px; }
 
 .quienesSomos {
-  padding-left: 100px;
+  padding-left: 30px;
   padding-top: 60px;
   padding-bottom: 40px;
   padding-right: 40px;
   display: grid; }
 
-@media screen and (max-width: 882px) {
-  .quienesSomos {
-    grid-template-columns: 100%; } }
-
-@media screen and (min-width: 882px) {
-  .quienesSomos {
-    grid-template-columns: 50% 50%; }
-  .gatoQuienesSomos {
-    width: 100%; } }
-
 .gatoQuienesSomos {
   width: 70%;
   border-radius: 5px; }
+
+@media screen and (max-width: 882px) {
+  .quienesSomos {
+    grid-template-columns: 100%; }
+  .gatoQuienesSomos {
+    width: 100%; } }
+
+@media screen and (min-width: 882px) {
+  .quienesSomos {
+    grid-template-columns: 50% 50%; } }
 
 .seguinos {
   grid-column: 2 / 5;
@@ -171,8 +171,8 @@ header section nav ul li {
 
 @media screen and (max-width: 882px) {
   .articulos {
-    padding-left: 100px;
-    grid-template-columns: 100%; } }
+    grid-template-columns: 100%;
+    padding-left: 20px; } }
 
 .card {
   margin-top: 10px;
@@ -213,15 +213,18 @@ header section nav ul li {
   margin: 10; }
 
 .artBlog {
-  border: solid 4px #CAF0F8;
-  border-radius: 5px;
-  margin: 20px; }
+  border: solid 2px #00011f77;
+  border-radius: 10px;
+  box-shadow: 3px 3px 17px rgba(0, 0, 0, 0.37);
+  margin: 20px;
+  width: 500px;
+  height: 630px; }
 
 .gatoArt {
   width: 100%;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
-  margin-bottom: -200px; }
+  margin-bottom: -250px; }
 
 .botonesArt {
   list-style-type: none;
@@ -261,6 +264,37 @@ header section nav ul li {
   .boton:hover {
     background-color: white;
     color: #03045E; }
+
+.lateralBlog {
+  display: grid; }
+
+.sectionArt {
+  display: grid; }
+
+@media screen and (max-width: 1186px) {
+  .sectionArt {
+    grid-template-columns: 50% 50%; } }
+
+@media screen and (min-width: 1186px) {
+  .sectionArt {
+    grid-template-columns: 25% 25% 25% 25%; }
+  .lateralBlog {
+    grid-template-columns: 25%; } }
+
+@media screen and (max-width: 882px) {
+  .sectionArt {
+    grid-template-columns: 100%;
+    padding-left: 20px; } }
+
+.botonArtBlog {
+  background-color: #00011f;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  border-radius: 5px;
+  padding: 10px;
+  margin-left: 10px;
+  margin-bottom: 5px; }
 
 h1 {
   color: #CAF0F8;
@@ -333,7 +367,7 @@ h3 {
 .titulosBlog {
   text-align: left;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 40px;
+  font-size: 30px;
   color: #00011f;
   font-weight: 500;
   padding-bottom: 20px;
@@ -350,9 +384,10 @@ h3 {
 .parrafoArt {
   text-align: left;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 25px;
+  font-size: 20px;
   color: #00011f;
-  padding-left: 10px; }
+  padding-left: 10px;
+  margin-bottom: 30px; }
 
 a {
   color: white;

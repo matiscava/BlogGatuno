@@ -1,26 +1,26 @@
 .quienesSomos{
-    padding-left: 100px;
+    padding-left: 30px;
     padding-top: 60px;
     padding-bottom: 40px;
     padding-right: 40px;
     display: grid;
 }
+.gatoQuienesSomos{
+    width: 70%;
+    border-radius: 5px;
+}
 @media screen and (max-width: 882px){
     .quienesSomos {
         grid-template-columns: 100%;
+    }
+    .gatoQuienesSomos{
+        width: 100%;
     }
 }
 @media screen and (min-width: 882px){
     .quienesSomos {
         grid-template-columns: 50% 50%;
     }
-    .gatoQuienesSomos{
-        width: 100%;
-    }
-}
-.gatoQuienesSomos{
-    width: 70%;
-    border-radius: 5px;
 }
 .seguinos {
     grid-column: 2 / 5 ;
