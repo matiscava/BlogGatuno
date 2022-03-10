@@ -41,24 +41,24 @@ botonBusca.addEventListener("click", () =>{
 
 //Filtro según tiempo de lectura
 
-const ordenLectura = document.querySelector(".lectura");
+// const ordenLectura = document.querySelector(".lectura");
 
-ordenLectura.addEventListener("click", () =>{
-   const valorDeFiltro = parseInt(inputFiltra.value)
-   let filtro = articulos.filter(articulos => articulos.lectura <= valorDeFiltro);
-   const resultadoFiltrar = document.querySelector(".resultadoFiltro");
-   let texto = '';
-  if(filtro.length === 0){
-      texto = `No se encontraron articulos`;
-  } else{
-      texto = `Se han encontrado ${filtro.length} articulos: \n`
-     filtro.forEach(articulo => {
-        texto += `${articulo.articulo} \n - `
-     });
+// ordenLectura.addEventListener("click", () =>{
+//    const valorDeFiltro = parseInt(inputFiltra.value)
+//    let filtro = articulos.filter(articulos => articulos.lectura <= valorDeFiltro);
+//    const resultadoFiltrar = document.querySelector(".resultadoFiltro");
+//    let texto = '';
+//   if(filtro.length === 0){
+//       texto = `No se encontraron articulos`;
+//   } else{
+//       texto = `Se han encontrado ${filtro.length} articulos: \n`
+//      filtro.forEach(articulo => {
+//         texto += `${articulo.articulo} \n - `
+//      });
      
-  }
-  resultadoFiltrar.textContent = texto;
-});
+//   }
+//   resultadoFiltrar.textContent = texto;
+// });
 
 
 
