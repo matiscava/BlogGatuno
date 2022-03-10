@@ -37,6 +37,7 @@ const generarHTMLArticulo = (array) => {
         <img src=${articulo.img} alt="gato curioso" id="gatoArt" class="gatoArt">
         <h3><label class="titulosArt titulosBlog">${articulo.titulo}</label></h3>
         <p class="metadatos">${articulo.tiempo} min de lectura</p>
+        <p class="parrafoArt" style="color: #00011f98 ">Publicado en ${articulo.publicado}</p>
         <p class="parrafoArt">${articulo.parrafo}</p>
         <a href=${articulo.link} class="botonArtBlog">Leer más...</a>
       </div>
@@ -64,7 +65,6 @@ const ordenarAlfabeticamente = ( array ) => {
     return 0;
   })
   let html = generarHTMLArticulo(arrayOrdenado);
-  console.log(html);
 
   contenedorArticulos.innerHTML = html;
 }
@@ -84,7 +84,6 @@ const ordenarPorTiempo = ( array ) => {
     return 0;
   })
   let html = generarHTMLArticulo(arrayOrdenado);
-  console.log(html);
   contenedorArticulos.innerHTML = html;
 }
 
@@ -102,7 +101,6 @@ const ordenarPorFecha = ( array ) => {
     return 0;
   })
   let html = generarHTMLArticulo(arrayOrdenado);
-  console.log(html);
 
   contenedorArticulos.innerHTML = html;
 }
