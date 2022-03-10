@@ -71,7 +71,7 @@
     <section class="barraSuperior">
                   <!--Buscador-->
                   <p class="buscador">
-                    <label>Buscar:</label>
+                    <label class="buscar">Buscar:</label>
                     <input id="buscador" type="input" value="">
                 </p>
 
@@ -128,7 +128,7 @@
         
 
 
-        <section class="barraLateral">
+<section class="barraLateral">
 
 
  
@@ -164,6 +164,27 @@
     <button id="fadeOut">Fade Out</button>
     <button id="slide">Slide</button>
   </div>
+  <section class="formularioAside colorFondo">
+    <img src="./imagenes/sobreNosotros.webp" alt="Gato mirando la cámara" class="gatoFormAside">
+    <aside> 
+        <h2 class="tituloFormAside">¿Querés recibir notificaciones de nuestro blog?</h2>
+        <p class="parrafoQSAside">Completa el siguiente formulario para recibir notificaciones cada vez que subimos un 
+            nuevo artículo. </p>
+
+            <form action="/" method="post">
+             <fieldset id="form" class="form">
+                 <label for="nombre" class="labelNombreAside" >Nombre completo</label>
+                 <input id="nombre" class="nombreAside" type="text" placeholder="Ingrese su nombre completo">
+
+                 <label for="correo" class="labelCorreoAside" >Correo electrónico</label>
+                 <input id="correo" class="correoAside" type="email" required placeholder="Ingrese su correo electrónico">
+       
+                 <input id="botonForm" class="botonFormAside" type="submit" value="Enviar">
+             </fieldset>
+            </form>
+    </aside>
+
+</section>
   </section>
 
   <div class="item artBlog artBlogCuatro animate__animated  animate__slideInUp">
@@ -244,9 +265,10 @@
 </div>
 
 
+
 </section>
 
-        <section class="formulario colorFondo">
+        <section class="formulario formularioAside colorFondo">
             <img src="./imagenes/sobreNosotros.webp" alt="Gato mirando la cámara" class="gatoForm">
             <aside> 
                 <h2 class="tituloForm">¿Querés recibir notificaciones de nuestro blog?</h2>
@@ -288,7 +310,7 @@
             </section>
         </footer>
         <script src="javascript/jquery3.5.1.min.js"></script>
-        <script src="javascript/buscadorPrueba.js"></script>
+        <script src="javascript/widgets.js"></script>
         <script src="javascript/main.js"></script>
 </body>
 </html>

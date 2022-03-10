@@ -64,7 +64,7 @@ h3{
     padding-left: 80px;
     padding-right: 80px;
 }
-.tituloArtBlog{
+.tituloArt{
     padding-top: 50px;
 }
 .titulosBlog{
@@ -75,7 +75,7 @@ h3{
     font-weight: 500;
     padding-bottom: 20px;
     padding-left: 10px;
-    margin-top: -230px;
+   margin-top: -300px;
 }
 .metadatos{
     text-align: left;
@@ -83,6 +83,8 @@ h3{
     font-size: 12px;
     color: #00011f98;
     padding-left: 10px;
+    margin-top: -30px;
+    margin-bottom: 10px;
 }
 .parrafoArt{
     text-align: left;
@@ -95,4 +97,8 @@ h3{
 a{
     color: white;
     text-decoration: none;
+}
+.titulosArt{
+    margin-top: -300px;
+    margin-left: -50px;
 }

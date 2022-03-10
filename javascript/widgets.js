@@ -38,7 +38,7 @@ function myFunction() {
     }
   }
 
-//Ordenar artículos por orden alfabético
+//Artículos por orden alfabético
 
 let titulos = document.getElementsByClassName("titulosBlog");
 
@@ -50,3 +50,27 @@ function ordenArticulos(a, b){
     return 0;
  }
  var articulosOrdenados = articulosBlog.sort(ordenArticulos);
+
+ console.log(articulosOrdenados)
+
+
+//Envío de formulario de contacto
+
+const nombre = document.getElementsByClassName(".nombreAside");
+
+const correo = document.getElementsByClassName (".correoAside");
+
+const URLGET   = "https://jsonplaceholder.typicode.com/posts"
+//Declaramos la información a enviar
+const infoPost =  { nombre: $(".nombreAside"), correo: $("correoAside") }
+//Agregamos un botón con jQuery
+$(".botonFormAside").click(() => { 
+    $.post(URLGET, infoPost ,(respuesta, estado) => {
+        if(estado === "success"){
+            $("body").prepend(`<div>
+Gracias ${respuesta.nombre} ! Tus datos fueron guardados con éxito!
+</div>`);
+        }  
+    });
+});
+
