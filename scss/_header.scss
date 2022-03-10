@@ -31,7 +31,7 @@ header section nav ul li{
     color: white;
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
+    font-size: 15px;
     text-transform: capitalize;
     text-align: right;
     &:hover {
@@ -51,4 +51,7 @@ header section nav ul li{
 }
 .btn-close{
     filter: invert(0.9);
+}
+.navbar-brand{
+    width: 30%;
 }

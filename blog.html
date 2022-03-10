@@ -68,87 +68,183 @@
     </hr>
     </section>
 
+    <section class="barraSuperior">
+                  <!--Buscador-->
+                  <p class="buscador">
+                    <label>Buscar:</label>
+                    <input id="buscador" type="input" value="">
+                </p>
+
+       
+          <div class="dropdownBlog">
+            <button onclick="myFunction()" class="dropbtn">Ordenar artículos por...</button>
+            <div id="myDropdown" class="dropdown-content">
+              <a onclick="ordenArticulos()" class="ordenAlfabetico">Orden alfabetico</a>
+              <a class="ordenFecha">Fecha de publicación</a>
+              <a class="lectura">Tiempo de lectura</a>
+            </div>
+          </div>
+
+        
+    </section>
         <section id="sectionArt" class="sectionArt">
 
-            <article id="artBlog" class="artBlog animate__animated  animate__slideInUp">
-                <img src="./imagenes/articulo_1_inicio.webp" alt="gato curioso" id="gatoArt" class="gatoArt">
-                <h3 id="titulosBlog" class="titulosBlog">Curiosidades sobre los gatos</h3>
-                <p id="metadatos" class="metadatos">10 min de lectura - Compartir</p>
-                <p id="parrafoArt" class="parrafoArt">No cabe duda que los gatos son una excelente compañía. Son perfectos 
-                 cómplices para las personas que buscan un compañero con quien descansar,
-                 que le guste pasar momentos tranquilos y sobretodo aquel que busca un 
-                 amigo fiel.</p>
-                 <a href="#" class="botonArtBlog">Leer más...</a>
-            </article>
+            <div class="item artBlog artBlogUno animate__animated  animate__slideInUp">
+                <div class="texto"> 
+                    <img src="./imagenes/articulo_1_inicio.webp" alt="gato curioso" id="gatoArt" class="gatoArt">
+                    <h3><label class="titulosArt titulosBlog">Curiosidades sobre los gatos</label></h3>
+                    <p class="metadatos">7 min de lectura</p>
+                    <p class="parrafoArt">No cabe duda que los gatos son una excelente compañía. Son perfectos 
+                        cómplices para las personas que buscan un compañero con quien descansar,
+                        que le guste pasar momentos tranquilos y sobretodo aquel que busca un 
+                        amigo fiel.</p>
+                        <a href="#" class="botonArtBlog">Leer más...</a>
+                </div> 
+            </div>
+            <div class="item artBlog artBlogDos animate__animated  animate__slideInUp">
+                <div class="texto">
+                    <img src="./imagenes/articulo_2_inicio.webp" alt="gato curioso" id="gatoArt" class="gatoArt">
+                    <h3><label class="titulosArt titulosBlog">Adoptar un gato: 10 cosas que debes saber</label></h3>
+                    <p class="metadatos">10 min de lectura</p>
+                    <p class="parrafoArt">No cabe duda que los gatos son una excelente compañía. Son perfectos 
+                        cómplices para las personas que buscan un compañero con quien descansar,
+                        que le guste pasar momentos tranquilos y sobretodo aquel que busca un 
+                        amigo fiel.</p>
+                        <a href="#" class="botonArtBlog">Leer más...</a>
+                </div>
+            </div>
+            <div class="item artBlog artBlogTres animate__animated  animate__slideInUp">
+                <div class="texto">
+                    <img src="./imagenes/articulo_3_inicio.webp" alt="gato curioso" id="gatoArt" class="gatoArt">
+                    <h3><label class="titulosArt titulosBlog">Cinco buenas razones para adoptar un gato</label></h3>
+                    <p class="metadatos">5 min de lectura</p>
+                    <p class="parrafoArt">No cabe duda que los gatos son una excelente compañía. Son perfectos 
+                        cómplices para las personas que buscan un compañero con quien descansar,
+                        que le guste pasar momentos tranquilos y sobretodo aquel que busca un 
+                        amigo fiel.</p>
+                        <a href="#" class="botonArtBlog">Leer más...</a>
+                </div>
+           </div>
+        
 
-            <article class="artBlog animate__animated  animate__slideInUp">
-                <img src="./imagenes/articulo_2_inicio.webp" alt="gato curioso 2" class="gatoArt">
-                <h3 class="titulosBlog">Curiosidades sobre los gatos</h3>
-                <p class="metadatos">10 min de lectura - Compartir</p>
-                <p class="parrafoArt">No cabe duda que los gatos son una excelente compañía. Son perfectos 
-                 cómplices para las personas que buscan un compañero con quien descansar,
-                 que le guste pasar momentos tranquilos y sobretodo aquel que busca un 
-                 amigo fiel.</p>
-                 <a href="#" class="botonArtBlog">Leer más...</a>
-            </article>
 
-            <article class="artBlog animate__animated  animate__slideInUp">
-                <img src="./imagenes/articulo_3_inicio.webp" alt="gato curioso 2" class="gatoArt">
-                <h3 class="titulosBlog">Curiosidades sobre los gatos</h3>
-                <p class="metadatos">10 min de lectura - Compartir</p>
-                <p class="parrafoArt">No cabe duda que los gatos son una excelente compañía. Son perfectos 
-                 cómplices para las personas que buscan un compañero con quien descansar,
-                 que le guste pasar momentos tranquilos y sobretodo aquel que busca un 
-                 amigo fiel.</p>
-                 <a href="#" class="botonArtBlog">Leer más...</a>
-            </article>
+        <section class="barraLateral">
 
-            <form>
-                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success" type="submit">Search</button>
-            </form>
 
-            <article class="artBlog animate__animated  animate__slideInUp">
-                <img src="./imagenes/articulo_4_inicio.webp" alt="gato curioso 2" class="gatoArt">
-                <h3 class="titulosBlog">Curiosidades sobre los gatos</h3>
-                <p class="metadatos">10 min de lectura - Compartir</p>
-                <p class="parrafoArt">No cabe duda que los gatos son una excelente compañía. Son perfectos 
-                 cómplices para las personas que buscan un compañero con quien descansar,
-                 que le guste pasar momentos tranquilos y sobretodo aquel que busca un 
-                 amigo fiel.</p>
-                 <a href="#" class="botonArtBlog">Leer más...</a>
-            </article>
+ 
+  <!--Filtro-->
+  
+  <div class="camposDeTexto">
+    <h3>Filtro por tiempo de lectura</h3>
+    <input id="input-filtro" type="number" name=""/>
+    <button id="boton-filtro">Filtrar</button>
+  </div>
+  <div class="resultadoFiltro camposDeTexto"></div>
+  <div>
+  
+  <!--Calculadora-->
+  <div class="calculadora camposDeTexto">
+    <h3>Calcular precio de productos</h3>
+  
+   <input type="number" id="valorSuma" placeholder="valor a sumar" type="number">
+    <br>
+    
+  <button id="sumarProducto" onclick="agregarValor()">Agregar producto</button>
+    
+  <button id="restarProducto" onclick="myFunction2()">Borrar producto</button>
+  
+  <button id="sumar">Calcular</button>
+  
+  </div>
+  
+  <div id="resultadoSubTotal" class="resultadoSubTotal camposDeTexto"></div>
+  <!--Animaciones-->
+  <div>
+    <button id="fadeIn">Fade In</button>
+    <button id="fadeOut">Fade Out</button>
+    <button id="slide">Slide</button>
+  </div>
+  </section>
 
-            <article class="artBlog animate__animated  animate__slideInUp">
-                <img src="./imagenes/articulo_1_inicio.webp" alt="gato curioso 2" class="gatoArt">
-                <h3 class="titulosBlog">Curiosidades sobre los gatos</h3>
-                <p class="metadatos">10 min de lectura - Compartir</p>
-                <p class="parrafoArt">No cabe duda que los gatos son una excelente compañía. Son perfectos 
-                 cómplices para las personas que buscan un compañero con quien descansar,
-                 que le guste pasar momentos tranquilos y sobretodo aquel que busca un 
-                 amigo fiel.</p>
-                 <a href="#" class="botonArtBlog">Leer más...</a>
-            </article>
+  <div class="item artBlog artBlogCuatro animate__animated  animate__slideInUp">
+    <div class="texto"> 
+        <img src="./imagenes/articulo_4_inicio.webp" alt="gato curioso" id="gatoArt" class="gatoArt">
+        <h3><label class="titulosArt titulosBlog">Curiosidades sobre los gatos</label></h3>
+        <p class="metadatos">7 min de lectura</p>
+        <p class="parrafoArt">No cabe duda que los gatos son una excelente compañía. Son perfectos 
+            cómplices para las personas que buscan un compañero con quien descansar,
+            que le guste pasar momentos tranquilos y sobretodo aquel que busca un 
+            amigo fiel.</p>
+            <a href="#" class="botonArtBlog">Leer más...</a>
+    </div> 
+</div>
+<div class="item artBlog artBlogCinco animate__animated  animate__slideInUp">
+    <div class="texto">
+        <img src="./imagenes/articulo_1_inicio.webp" alt="gato curioso" id="gatoArt" class="gatoArt">
+        <h3><label class="titulosArt titulosBlog">Adoptar un gato: 10 cosas que debes saber</label></h3>
+        <p class="metadatos">10 min de lectura</p>
+        <p class="parrafoArt">No cabe duda que los gatos son una excelente compañía. Son perfectos 
+            cómplices para las personas que buscan un compañero con quien descansar,
+            que le guste pasar momentos tranquilos y sobretodo aquel que busca un 
+            amigo fiel.</p>
+            <a href="#" class="botonArtBlog">Leer más...</a>
+    </div>
+</div>
+<div class="item artBlog artBlogSeis animate__animated  animate__slideInUp">
+    <div class="texto">
+        <img src="./imagenes/articulo_2_inicio.webp" alt="gato curioso" id="gatoArt" class="gatoArt">
+        <h3><label class="titulosArt titulosBlog">Cinco buenas razones para adoptar un gato</label></h3>
+        <p class="metadatos">5 min de lectura</p>
+        <p class="parrafoArt">No cabe duda que los gatos son una excelente compañía. Son perfectos 
+            cómplices para las personas que buscan un compañero con quien descansar,
+            que le guste pasar momentos tranquilos y sobretodo aquel que busca un 
+            amigo fiel.</p>
+            <a href="#" class="botonArtBlog">Leer más...</a>
+    </div>
+</div>
 
-            <article class="artBlog animate__animated  animate__slideInUp">
-                <img src="./imagenes/articulo_2_inicio.webp" alt="gato curioso 2" class="gatoArt">
-                <h3 class="titulosBlog">Curiosidades sobre los gatos</h3>
-                <p class="metadatos">10 min de lectura - Compartir</p>
-                <p class="parrafoArt">No cabe duda que los gatos son una excelente compañía. Son perfectos 
-                 cómplices para las personas que buscan un compañero con quien descansar,
-                 que le guste pasar momentos tranquilos y sobretodo aquel que busca un 
-                 amigo fiel.</p>
-                 <a href="#" class="botonArtBlog">Leer más...</a>
-            </article>
 
-        </section>
+        
 
-        <section id="lateralBlog" class="lateralBlog">
-            <form class="d-flex">
-                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success" type="submit">Search</button>
-              </form>
-        </section>
+<div class="item artBlog artBlogSiete animate__animated  animate__slideInUp">
+    <div class="texto"> 
+        <img src="./imagenes/articulo_3_inicio.webp" alt="gato curioso" id="gatoArt" class="gatoArt">
+        <h3><label class="titulosArt titulosBlog">Curiosidades sobre los gatos</label></h3>
+        <p class="metadatos">7 min de lectura</p>
+        <p class="parrafoArt">No cabe duda que los gatos son una excelente compañía. Son perfectos 
+            cómplices para las personas que buscan un compañero con quien descansar,
+            que le guste pasar momentos tranquilos y sobretodo aquel que busca un 
+            amigo fiel.</p>
+            <a href="#" class="botonArtBlog">Leer más...</a>
+    </div> 
+</div>
+<div class="item artBlog artBlogOcho animate__animated  animate__slideInUp">
+    <div class="texto">
+        <img src="./imagenes/articulo_4_inicio.webp" alt="gato curioso" id="gatoArt" class="gatoArt">
+        <h3><label class="titulosArt titulosBlog">Adoptar un gato: 10 cosas que debes saber</label></h3>
+        <p class="metadatos">10 min de lectura</p>
+        <p class="parrafoArt">No cabe duda que los gatos son una excelente compañía. Son perfectos 
+            cómplices para las personas que buscan un compañero con quien descansar,
+            que le guste pasar momentos tranquilos y sobretodo aquel que busca un 
+            amigo fiel.</p>
+            <a href="#" class="botonArtBlog">Leer más...</a>
+    </div>
+</div>
+<div class="item artBlog artBlogNueve animate__animated  animate__slideInUp">
+    <div class="texto">
+        <img src="./imagenes/articulo_1_inicio.webp" alt="gato curioso" id="gatoArt" class="gatoArt">
+        <h3><label class="titulosArt titulosBlog">Cinco buenas razones para adoptar un gato</label></h3>
+        <p class="metadatos">5 min de lectura</p>
+        <p class="parrafoArt">No cabe duda que los gatos son una excelente compañía. Son perfectos 
+            cómplices para las personas que buscan un compañero con quien descansar,
+            que le guste pasar momentos tranquilos y sobretodo aquel que busca un 
+            amigo fiel.</p>
+            <a href="#" class="botonArtBlog">Leer más...</a>
+    </div>
+</div>
+
+
+</section>
 
         <section class="formulario colorFondo">
             <img src="./imagenes/sobreNosotros.webp" alt="Gato mirando la cámara" class="gatoForm">
@@ -191,5 +287,8 @@
             <p id="textoFooter" class="textoFooter">El gato negro © Copyright 2021, Todos los derechos reservados</p>
             </section>
         </footer>
+        <script src="javascript/jquery3.5.1.min.js"></script>
+        <script src="javascript/buscadorPrueba.js"></script>
+        <script src="javascript/main.js"></script>
 </body>
 </html>
